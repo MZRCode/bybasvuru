@@ -30,7 +30,7 @@ client.on('interactionCreate', async (interaction) => {
             .setMinLength(2)
             .setMaxLength(25)
             .setRequired(true)
-            .setPlaceholder('Kaan 16')
+            .setPlaceholder('Kaan 18')
             .setStyle(TextInputStyle.Short)
     
             const aktiflikComponent = new TextInputBuilder()
