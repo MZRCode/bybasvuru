@@ -129,7 +129,7 @@ client.on('interactionCreate', async (interaction) => {
                         value: `${interaction.user}`
                     },
                 )
-				.setColor("#5865F2")
+				.setColor("#66ff00")
                 .setThumbnail(interaction.user.displayAvatarURL())
 			logKanal.send({
               embeds: [kabulyedi]
@@ -181,7 +181,7 @@ client.on('interactionCreate', async (interaction) => {
                         value: `${interaction.user}`
                     },
                 )
-				.setColor("#5865F2")
+				.setColor("#ff0000")
                 .setThumbnail(interaction.user.displayAvatarURL())
 			logKanal.send({
               embeds: [redyedi]
