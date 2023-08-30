@@ -9,7 +9,7 @@ module.exports = {
      * @param {ChatInputCommandInteraction} interaction 
      */
     async execute(interaction, client) {
-        if (interaction.user.id !=== `${DeveloperID}`) return interaction.reply({ content: "Developer Değilsin!", ephemeral: true });
+        if (interaction.user.id !== DeveloperID) return interaction.reply({ content: "Developer Değilsin!", ephemeral: true });
 
         const adminRol = interaction.options.getRole('rol');
 
